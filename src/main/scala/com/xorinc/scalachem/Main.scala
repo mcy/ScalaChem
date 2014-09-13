@@ -1,6 +1,6 @@
 package com.xorinc.scalachem
 
-import java.io.{FileInputStream, InputStream, File}
+import java.io.{FileOutputStream, FileInputStream, InputStream, File}
 
 import com.google.gson.{JsonArray, JsonParser}
 import org.apache.commons.io.{IOUtils, FileUtils}
@@ -35,8 +35,10 @@ object Main {
     opt[Unit]("doubleline") maxOccurs 1 action { (_, o) => o.copy(fancyTile = DoubleStruck) } text "use double-struck frame characters for tiles"
     opt[Unit]("rounded") maxOccurs 1 action { (_, o) => o.copy(fancyTile = Rounded) } text "use double-struck frame characters for tiles"
 
-    opt[String]("table") maxOccurs 1 action { (s, o) => o.copy(table = Some(s))} text "generate a periodic table from file"
+    opt[String]("tableFile") maxOccurs 1 action { (s, o) => o.copy(table = Some(s))} text "generate a periodic table from file"
     opt[Unit]("table") maxOccurs 1 action { (_, o) => o.copy(table = Some(defaultFile))} text "generate a periodic table"
+
+    opt[File]("out") maxOccurs 1 action { (f, o) => Console.setOut(new FileOutputStream(f)); o } text "redirection (because the shell doesn't like wide stuff)"
 
     opt[String]('w', "word") maxOccurs 1 action { (s, o) => o.copy(words = s.split("\n").toList) } text "text to convert"
 
