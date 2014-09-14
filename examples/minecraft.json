@@ -1,0 +1,226 @@
+[
+	[
+		"Pr",
+		"Coal Ore",
+		"16",
+		"Classic 0.0.14a",
+		1,
+		1
+	],
+
+	[
+		"Fe",
+		"Iron Ore",
+		"15",
+		"Classic 0.0.14a",
+		1,
+		2
+	],
+
+	[
+		"Gs",
+		"Glowstone",
+		"89",
+		"Alpha 1.2.0",
+		1,
+		9
+	],
+
+	[
+		"Au",
+		"Gold Ore",
+		"14",
+		"Classic 0.0.14a",
+		2,
+		1
+	],
+
+	[
+		"Ll",
+		"Lapis Ore",
+		"21",
+		"Beta 1.2",
+		2,
+		2
+	],
+
+	[
+		"Ae",
+		"Air",
+		"00",
+		"?",
+		2,
+		3
+	],
+
+	[
+		"Ni",
+		"Snow",
+		"78",
+		"Alpha 1.0.5",
+		2,
+		4
+	],
+
+	[
+		"Gl",
+		"Ice",
+		"79",
+		"Alpha 1.0.4",
+		2,
+		5
+	],
+
+	[
+		"Ha",
+		"Sand",
+		"12",
+		"Classic 0.0.14a",
+		2,
+		6
+	],
+
+	[
+		"So",
+		"Dirt",
+		"03",
+		"Pre-classic rd-160052",
+		2,
+		7
+	],
+
+	[
+		"Aq",
+		"Water",
+		"08",
+		"Classic 0.0.12a",
+		2,
+		8
+	],
+
+	[
+		"Ne",
+		"Netherrack",
+		"87",
+		"Alpha 1.2.0",
+		2,
+		9
+	],
+
+	[
+		"Rs",
+		"Redstone Ore",
+		"73",
+		"Alpha 1.0.1",
+		3,
+		1
+	],
+
+	[
+		"Ad",
+		"Diamond Ore",
+		"56",
+		"Indev 0.31",
+		3,
+		2
+	],
+
+	[
+		"Ai",
+		"Sandstone",
+		"24",
+		"Beta 1.2",
+		3,
+		3
+	],
+
+	[
+		"Pe",
+		"Gravel",
+		"13",
+		"Classic 0.0.14a",
+		3,
+		4
+	],
+
+	[
+		"Co",
+		"Clay",
+		"82",
+		"Alpha 1.0.11",
+		3,
+		5
+	],
+
+	[
+		"Cs",
+		"Cobblestone",
+		"04",
+		"Pre-classic Pre 0.0.0",
+		3,
+		6
+	],
+
+	[
+		"La",
+		"Stone",
+		"01",
+		"Pre-classic rd-160052",
+		3,
+		7
+	],
+
+	[
+		"Ma",
+		"Lava",
+		"10",
+		"Classic 0.0.12a",
+		3,
+		8
+	],
+
+	[
+		"An",
+		"Soul Sand",
+		"88",
+		"Alpha 1.2.0",
+		3,
+		9
+	],
+
+	[
+		"Ob",
+		"Obsidian",
+		"49",
+		"Survival Test",
+		4,
+		3
+	],
+
+	[
+		"Sp",
+		"Mob Spanwer",
+		"52",
+		"Seecret Friday 2",
+		4,
+		4
+	],
+
+	[
+		"Mo",
+		"Moss Stone",
+		"48",
+		"Survival Test",
+		4,
+		5
+	],
+
+	[
+		"Be",
+		"Bedrock",
+		"07",
+		"Classic 0.0.12a",
+		4,
+		6
+	]
+]

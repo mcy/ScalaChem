@@ -167,15 +167,15 @@ object Main {
       (
         element._1,
         element._2.pad(21, ' '),
-        element._3.pad(3, ' '),
-        element._4.pad(9, ' ')
+        element._3.pad(21, ' '),
+        element._4.pad(21, ' ')
       )
     }
     val (ul, ur, ll, lr, v, h, _, _, _, _, _) = frames(frame)
 
     (
       s"$ul${h.toString * 21}$ur" ::
-      s"$v         $number         $v" ::
+      s"$v$number$v" ::
       {
         if(symbol == "") Array.fill(6)(v + " " * 21 + v).toList
         else {
@@ -190,7 +190,7 @@ object Main {
       s"$v${" " * 21}$v" ::
       s"$v$name$v" ::
       s"$v${" " * 21}$v" ::
-      s"$v      $weight      $v" ::
+      s"$v$weight$v" ::
       s"$ll${h.toString * 21}$lr" ::
       Nil
     ).toArray
